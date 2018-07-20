@@ -1,0 +1,89 @@
+.Talks{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction:column;
+  background: lightgray;
+}
+.Theads{
+  width:100%;
+  height:0.8rem;
+  line-height: 0.8rem;
+  border-bottom: 1px solid yellow;
+  color: brown;
+  box-sizing:border-box;
+  text-align: center;
+  position: relative;
+  font-size:0.32rem;
+  font-weight:bold;
+  background:white;
+  position:fixed;
+  top: 0;
+}
+.Theads a{
+  position:absolute;
+  left:0.5rem;
+}
+.Tbodys{
+  flex:1;
+  margin-bottom:1rem;
+  margin-top:1rem;
+}
+.Tbodys ul{
+  width:100%;
+  height:1.2rem;
+  background:white;
+  border-bottom:1px solid lightgray;
+  box-sizing:border-box;
+}
+.Tbodys ul li:first-child{
+  width:100%;
+  height:0.6rem;
+  display: flex;
+  line-height:0.6rem;
+  box-sizing:border-box;
+}
+.Tbodys ul li:first-child img{
+  width:9%;
+  height:90%;
+  margin-top: 1%;
+  border-radius:50%;
+  margin-left:0.3rem;
+}
+.Tbodys ul li:first-child span{
+  display: block;
+  margin-left: 0.35rem;
+  font-weight:bold;
+}
+.Tbodys ul li:last-child{
+  width:100%;
+  height:0.6rem;
+  line-height:0.6rem;
+  text-indent:0.6rem;
+  color:brown;
+  font-size:0.28rem;
+}
+.TFoots{
+  width:100%;
+  height:1rem;
+  line-height: 1rem;
+  position:fixed;
+  bottom: 0;
+  background:white;
+  text-align: center;
+}
+.TFoots input{
+  width:75%;
+  height:50%;
+  border-radius:0.5rem;
+  border:1px solid brown;
+  text-indent:0.2rem;
+}
+.TFoots button{
+  width:15%;
+  height:50%;
+  background:none;
+  border:0;
+  font-size:0.28rem;
+  color:brown;
+}
